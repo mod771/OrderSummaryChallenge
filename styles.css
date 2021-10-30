@@ -1,0 +1,110 @@
+
+html{
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    width: 30%;
+    margin-top: 75px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.heroImg img{
+    width: 100%;
+    border-top-left-radius: 15px;  
+    border-top-right-radius: 15px;   
+}
+.header{
+    text-align: center;
+}
+.info{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-container{
+    display: flex;
+    line-height: 1px;
+    width: 75%;
+    padding: 10px 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 8px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 25px;
+    
+}
+.diff{
+    flex-grow: 1;
+}
+.diff a{
+    color: hsl(245, 75%, 52%);
+    font-size: 14px;
+}
+.musicIcon{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+.price{
+    flex-grow: 8;
+    float: left;
+}
+.price p{
+    color: hsl(224, 23%, 55%);
+}
+.contButton{
+    text-align: center;
+}
+.contButton button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.cancel{
+    text-align: center;
+}
+.cancel a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (max-width: 375px){
+    html{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    .container{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .flex-container{
+        width: 90%;
+    }
+    
+}
