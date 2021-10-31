@@ -9,7 +9,7 @@ html{
     display: flex;
     flex-direction: column;
     flex-flow: column wrap;
-    width: 30%;
+    width: 400px;
     margin-top: 75px;
     justify-content: space-between;
     padding-bottom: 40px;
