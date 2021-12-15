@@ -9,7 +9,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://github.com/paolas771/OrderSummaryChallenge)
 - Live Site URL: (https://paolas771.github.io/OrderSummaryChallenge/)
 
 ## Built with
